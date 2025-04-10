@@ -17,6 +17,11 @@
   .content {
     height: 75vh;
   }
+
+  .footer {
+    height: 25vh;
+  }
+
 }
 
 @media (max-width: 1024px) {
@@ -28,6 +33,20 @@
   .content {
     height: auto;
     text-align: center;
+  }
+
+  .footer {
+    height: auto;
+  }
+
+  .navi {
+    visibility: hidden;
+  }
+
+  .subtext {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 16px;
   }
 }
 
